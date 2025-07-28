@@ -1,0 +1,122 @@
+/* Base styling for every page */
+body {
+  font-family: Arial, sans-serif; /* font style */
+  margin: 0;
+  color: #333; /* font colour */
+}
+
+/* Header section */
+.header {
+  background-color: #f9c468; /* background colour */
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  position: relative; /* Required to absolutely position logo */
+  flex-wrap: wrap;
+}
+
+/* Main logo position */
+.header-left {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+}
+
+/* Header text position */
+.header-center {
+  text-align: center;
+}
+
+/* Nav bar position to move from one page to another */
+.header-center h1 {
+  font-size: 28px;
+  margin: 0;
+  color: #5a3200;
+}
+
+/* Adjust nav bar from the top */
+.nav-links {
+  margin-top: 10px;
+}
+
+/* Nav bar text size,colour and spacing*/
+.nav-links a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: #5a3200;
+  font-size: 14px;
+}
+
+/* Logo size adjustment */
+.mainLogo {
+  width: 90px;
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f4a14e;
+}
+
+.form-container {
+  background-color: white;
+  max-width: 600px;
+  margin: 80px auto; 
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color:azure;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-left: 50;
+  color:rgb(0, 0, 0);
+ 
+}
+
+
+fieldset {
+  margin-top: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  background-color:azure;;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 5px;
+  background-color: azure;;
+
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#thanksMessage {
+  text-align: center;
+  font-size: 18px;
+  color: green;
+  margin-top: 20px;
+}

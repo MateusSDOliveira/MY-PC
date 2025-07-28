@@ -1,0 +1,190 @@
+/* Base styling for every page */
+body {
+  font-family: Arial, sans-serif; /* font style */
+  margin: 0;
+  color: #333; /* font colour */
+}
+
+/* Header section */
+.header {
+  background-color: #f9c468; /* background colour */
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  position: relative; /* Required to absolutely position logo */
+  flex-wrap: wrap;
+}
+
+/* Main logo position */
+.header-left {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+}
+
+/* Header text position */
+.header-center {
+  text-align: center;
+}
+
+/* Nav bar position to move from one page to another */
+.header-center h1 {
+  font-size: 28px;
+  margin: 0;
+  color: #5a3200;
+}
+
+/* Adjust nav bar from the top */
+.nav-links {
+  margin-top: 10px;
+}
+
+/* Nav bar text size,colour and spacing*/
+.nav-links a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: #5a3200;
+  font-size: 14px;
+}
+
+/* Logo size adjustment */
+.mainLogo {
+  width: 90px;
+}
+
+
+.text-image{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ gap: 30px;
+ padding: 20px;
+ background-color: #eae5dc;
+}
+
+.image{
+    max-width: 400px;
+    width: 100%;
+    border-radius: 8px;
+    
+   
+}
+
+.text{
+    max-width: 400px;
+    margin-right:1000px;
+    
+    
+}
+
+.text h2{
+    font-size: 20px;
+    color: #5a3200;
+}
+
+.text p{
+    line-height: 1.6;
+    font-size: 15px;
+    color: #333;
+}
+
+
+
+.food-buttons{
+   margin: 20px auto;
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+
+
+}
+
+.foods{
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #f39c12;
+}
+
+.foods:hover:hover {
+    background-color:#f39c12;
+    color: white;
+}
+
+#choose-a-food{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    font-size: 25px;
+    color: #5a3200;
+    margin-top: 160px;
+
+}
+
+
+#simulate {
+    justify-content: center;
+    margin-left: 890px;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#simulate:hover{
+    background-color: #148006;
+    color: #f4f4f4;
+}
+    
+
+.facts{
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    margin-top: -250px;
+    margin-left: 1100px;
+    color: #f4f4f4;
+    background-color: #148006;
+}
+
+.food-result {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 18px;
+  color: #5a3200;
+  background-color: #fdf1df;
+  padding: 20px;
+  border-radius: 8px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video{
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.video video {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  margin-top: 90px;
+}
+
+.video-text p {
+  margin-left: 200px;
+
+}
+
+.video-text h5{
+  margin-left: 310px;
+}
